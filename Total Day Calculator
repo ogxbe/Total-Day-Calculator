@@ -1,0 +1,13 @@
+public class Lab2 {
+    
+    public static void main(String[] args) {
+    
+        int totalDays = 731;
+       int years = totalDays / 365;
+         int weeks = (totalDays % 365) / 7;
+            int days = (totalDays % 365) % 7;
+
+        System.out.println(totalDays + " days converts to " + years + " year " + weeks + " weeks and " + days + " days.");
+        
+    }
+}
